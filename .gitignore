@@ -1,0 +1,8 @@
+# Incomplete collection and disposable fitting state are never published.
+**/.inprogress
+**/*.inprogress
+**/*.inprogress.*
+**/policy_fit_cache/
+**/fit-cache/
+**/__pycache__/
+*.pyc

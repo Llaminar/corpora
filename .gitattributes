@@ -1,0 +1,11 @@
+# Corpus payloads belong in LFS by default, including future evidence formats.
+* filter=lfs diff=lfs merge=lfs -text
+
+# Keep small reviewable metadata and generated policy sources in ordinary Git.
+.gitattributes -filter -diff -merge text
+.gitignore -filter -diff -merge text
+*.md -filter -diff -merge text
+LICENSE* -filter -diff -merge text
+*.inc -filter -diff -merge text
+*.sha256 -filter -diff -merge text
+corpus.manifest.json -filter -diff -merge text
