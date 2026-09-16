@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "kind": "generation_control_acquisition",
+  "approved": false,
+  "cpu_isa": "AVX512",
+  "payload": "controls.json",
+  "document_digest": "b1d35a78a42edfd84b6e65e6125e19803597da05af59cdf447e6810486ca4c86",
+  "canonical_cells": 510,
+  "serial_controls": 175,
+  "serial_requests": 700,
+  "committed_tokens_per_request": 384,
+  "passed_mtp_comparisons": 335,
+  "source_revisions": [
+    "1a4402109f45467c7aad53f1ffbe31f25a893609",
+    "d02cf47de9db6290ad5db416cbfb010e9f6de638"
+  ]
+}

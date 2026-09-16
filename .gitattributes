@@ -9,3 +9,7 @@ LICENSE* -filter -diff -merge text
 *.inc -filter -diff -merge text
 *.sha256 -filter -diff -merge text
 corpus.manifest.json -filter -diff -merge text
+
+# Generation review metadata is ordinary, text-diffable Git; tokens stay in LFS.
+generation_regression/*.md -filter diff merge text
+generation_regression/**/corpus.manifest.json -filter diff merge text
