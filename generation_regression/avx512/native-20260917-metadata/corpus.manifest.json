@@ -1,0 +1,19 @@
+{
+  "approved": false,
+  "canonical_cells": 510,
+  "certification_eligible": false,
+  "changes": [
+    "--moe-overlay-prefill-segment-rows:600->512",
+    "cross_host_e2e:absent->canonical eligibility"
+  ],
+  "cpu_isa": "AVX512",
+  "document_digest": "d13bea0691677d6ab8ca0a68f0b63c5c180eb51e28722c0dd871071f4356dcd0",
+  "fresh_inference_evidence": false,
+  "kind": "user_approved_control_metadata_revision",
+  "original_document_digest": "b1d35a78a42edfd84b6e65e6125e19803597da05af59cdf447e6810486ca4c86",
+  "original_generation": "native-20260916",
+  "payload": "controls.json",
+  "preserved_serial_requests": 700,
+  "schema": 1,
+  "serial_controls": 175
+}
